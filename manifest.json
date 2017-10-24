@@ -1,0 +1,21 @@
+{
+    "manifest_version": 2,
+    "name": "Vertcoin Ticker",
+    "version": "1.0.1",
+    "description": "See the current value of the Vertcoin in realtime",
+    "homepage_url": "https://github.com/marc2772/VertcoinTicker",
+    "icons": {
+        "48": "icons/vertcoin-48.png"
+    },
+    "permissions": [
+        "storage"
+    ],
+    "browser_action": {
+        "default_icon": "icons/vertcoin-48.png",
+        "default_title": "Vertcoin Ticker",
+        "default_popup": "popup/vertcoin-ticker.html"
+    },
+    "options_ui": {
+        "page": "options/options.html"
+    }
+}

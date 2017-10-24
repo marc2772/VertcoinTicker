@@ -1,0 +1,32 @@
+row {
+    -moz-box-align: center;
+    min-height: 35px;
+    line-height: 20px;
+    text-shadow: 0 1px 1px #fefffe;
+}
+
+label {
+    position: relative;
+    font-size: 1.25rem;
+    color: #333;
+    margin-top: 1px;
+    margin-bottom: 2px;
+    margin-inline-start: 6px;
+    margin-inline-end: 5px;
+    margin-right: 30px;
+    line-height: 20px;
+    text-shadow: 0 1px 1px #fefffe;
+}
+
+label.title {
+    font-size: 1.6rem;
+    font-weight: bold;
+    padding-bottom: 4px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #c1c1c1;
+}
+
+#currency {
+    position: relative;
+    width: 100px;
+}
